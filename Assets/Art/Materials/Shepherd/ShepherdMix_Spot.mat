@@ -21,23 +21,19 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: ShepherdMix_Spot
-  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 57c1a84fa8a4a944d84e6969fce569cd, type: 3}
   m_Parent: {fileID: 2100000, guid: a22d470eec972d94798bc96151277f1c, type: 2}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _ALPHATEST_ON
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - _SPECULAR_SETUP
   - _SURFACE_TYPE_TRANSPARENT
-  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap:
-    RenderType: Transparent
+  stringTagMap: {}
   disabledShaderPasses:
-  - DepthOnly
-  - SHADOWCASTER
   - MOTIONVECTORS
   m_LockedProperties: 
   m_SavedProperties:
@@ -51,10 +47,17 @@ Material:
         m_Texture: {fileID: 2800000, guid: f291896bdc670284eb6de74d11a0d844, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Texture2D:
+        m_Texture: {fileID: 2800000, guid: f291896bdc670284eb6de74d11a0d844, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
-    m_Floats: []
+    m_Floats:
+    - _Max: 0.16
+    - _Min: 0
+    - _Shades: 0.25
     m_Colors:
-    - _BaseColor: {r: 0.3584906, g: 0.3584906, b: 0.3584906, a: 1}
-    - _Color: {r: 0.35849056, g: 0.35849056, b: 0.35849056, a: 1}
+    - _BaseColor: {r: 0.38679248, g: 0.38679248, b: 0.38679248, a: 1}
+    - _Color: {r: 0.38679245, g: 0.38679245, b: 0.38679245, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
