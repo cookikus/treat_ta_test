@@ -55,7 +55,7 @@ Material:
     m_Floats:
     - _Max: 0.16
     - _Min: 0
-    - _Shades: 0.25
+    - _Shades: 0.01
     m_Colors:
     - _BaseColor: {r: 0.38679248, g: 0.38679248, b: 0.38679248, a: 1}
     - _Color: {r: 0.38679245, g: 0.38679245, b: 0.38679245, a: 1}
